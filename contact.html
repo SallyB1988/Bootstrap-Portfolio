@@ -11,7 +11,7 @@
     <title>SPB Contact</title>
   </head>
 
-  <body class="spb-body">
+   <body>
     <nav class="navbar sticky-top navbar-expand-lg navbar-light p-0 spb-navbar-bkg">
       <section class="container p-0">
         <a class="navbar-brand text-white font-weight-bold px-4 py-2 spb-logo" href="./index.html">Sally Beckwith</a>
@@ -35,47 +35,53 @@
     </nav>
     
     <section class="container">
-      <!-- row containing contact header -->
-      <div class="row bg-white mt-5">
-        <div class="col-md-12 pt-3">
-          <h1 class="spb-primary">Contact</h1>
-          <hr />
+      <!-- Outermost container added to put space at bottom
+           so the footer does not hide bottom of content -->
+      <div class="row mb-4">
+        <div class="col-md-12">
+          <!-- row containing contact header -->
+          <div class="row bg-white mt-5">
+              <div class="col-md-12 pt-3">
+                <h1 class="spb-primary">Contact</h1>
+                <hr />
+            </div>
+          </div>
+      
+          <!-- row containing name -->
+          <div class="row bg-white pt-3 px-3">
+            <div class="col-md-2 ">
+              <label class="py-2 font-weight-bold" for="fullname">Name:</label>
+            </div>
+            <div class="col-md-10 m-0">
+              <input class="w-100 p-1 m-0" type="text" id="fullname" name="name" value="Your Full Name...">
+            </div>
+          </div>
+          <!-- row containing email -->
+          <div class="row bg-white pt-3 px-3">
+            <div class="col-md-2">
+              <label class="md-2 font-weight-bold" for="fullname">Email:</label>
+            </div>
+            <div class="col-md-10">
+              <input class="w-100 p-1" type="text" id="email" name="email" value="username@company.com">
+            </div>
+          </div>
+          <!-- row containing message -->
+          <div class="row bg-white pt-3 p-3 ">
+            <div class="col-md-2">
+              <label class="py-2 font-weight-bold" for="fullname">Message:</label>
+            </div>
+            <div class="col-md-10">
+              <textarea class="w-100 " id="message" name="message" placeholder="Enter message..." ></textarea>        <br>
+            </div>
+          </div>
+          <!-- row containing submit button -->
+          <div class="row bg-white pt-3 px-3 pb-3  mb-5">
+            <div class="col-md-2">
+              <input class="py-2 rounded" id="submit-msg" type="submit" value="Submit">
+            </div>
+          </div>     
         </div>
       </div>
-
-      <!-- row containing name -->
-      <div class="row bg-white pt-3 px-3">
-        <div class="col-md-2 ">
-          <label class="py-2 font-weight-bold" for="fullname">Name:</label>
-        </div>
-        <div class="col-md-10 m-0">
-          <input class="w-100 p-1 m-0" type="text" id="fullname" name="name" value="Your Full Name...">
-        </div>
-      </div>
-      <!-- row containing email -->
-      <div class="row bg-white pt-3 px-3">
-        <div class="col-md-2">
-          <label class="md-2 font-weight-bold" for="fullname">Email:</label>
-        </div>
-        <div class="col-md-10">
-          <input class="w-100 p-1" type="text" id="email" name="email" value="username@company.com">
-        </div>
-      </div>
-      <!-- row containing message -->
-      <div class="row bg-white pt-3 p-3 ">
-        <div class="col-md-2">
-          <label class="py-2 font-weight-bold" for="fullname">Message:</label>
-        </div>
-        <div class="col-md-10">
-          <textarea class="w-100 " id="message" name="message" placeholder="Enter message..." ></textarea>        <br>
-        </div>
-      </div>
-      <!-- row containing submit button -->
-      <div class="row bg-white pt-3 px-3 pb-3">
-        <div class="col-md-2">
-          <input class="py-2 rounded" id="submit-msg" type="submit" value="Submit">
-        </div>
-      </div>     
     </section>
     
     <footer class="mt-4 fixed-bottom">
