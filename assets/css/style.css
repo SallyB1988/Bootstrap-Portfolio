@@ -1,0 +1,97 @@
+body {
+  background-image: url("../images/white-waves.png");
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif !important;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: 'Georgia', Times, 'Times New Roman', serif !important;
+  font-size: 28px;
+}
+
+hr {
+  border: 0;
+  border-top: 2px solid #4aaaa7 !important; 
+}
+
+textarea {
+  height: 200px;
+  text-align: left;
+  padding: 5px;
+}
+
+footer {
+  background-color: #666666;
+  border-top: 5px solid #4aaaa5;
+}
+
+a:hover {
+  color: #4aaaa5 !important;
+}
+
+.spb-primary {
+  color: #4aaaa7;
+}
+
+.spb-navbar-bkg {
+  background-color: white;
+}
+
+.spb-logo {
+  font-family: 'Georgia', Times, 'Times New Roman', serif !important;
+  font-size: 24px;
+  background-color: #4aaaa5;
+}
+
+.about-photo {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  float: left;
+}
+
+#submit-msg {
+  background-color: #4aaaa5;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+.portfolio-item {
+  position: relative;
+}
+
+.portfolio-image {
+  height: 300px;
+  width: 300px;
+}
+
+.portfolio-image-titlebar {
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+  background-color: teal;
+  color: white;
+  text-transform: uppercase;
+}
+
+.spb-overlay {
+  position: absolute;
+  top: 0%;
+  height: 300px;
+  width: 300px;
+  opacity: 0;
+  transition: .25s ease;
+}
+
+.portfolio-item:hover .spb-overlay {
+  opacity: 1;
+}
+
+.footer-text {
+  color: #777777;
+  text-align: center;
+}
