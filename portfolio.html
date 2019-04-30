@@ -204,6 +204,7 @@
                 <h1 class="portfolio-image-titlebar">Recipe Finder</h1>
               </div>
             </div>
+
           </div>
         </div>
       </div>
@@ -213,28 +214,54 @@
     <div class="row bg-white py-2 mb-5">
       <h2 class="col-md-12 pt-2 text-center">Heroku Deployed Projects</h2>
       <!-- Zippy's -->
-      <div class="col-lg-4 col-md-6 d-flex justify-content-around my-lg-3  my-1">
-        <div class="portfolio-image">
-          <a href="https://zippys-burgers.herokuapp.com/">
-            <img
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex justify-content-around my-lg-3  my-1">
+          <div class="portfolio-image">
+            <a href="https://zippys-burger-2.herokuapp.com/"">
+              <img
               class="portfolio-image"
               src="./assets/images/burger.png"
               alt="zippys"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="col-md-8 pt-2 mt-4">
+          <p>
+            This project simulates ordering a burger at a restaurant. When a burger is ordered, it is added to the MySQL database and is displayed in the 'Served Burgers' column. Click on the button to 'eat' the burger, and it will be moved to the 'Consumed Burgers' column.
+          </p>
+          <h4>Technologies Used</h4>
+          <p>Handlebars Express NodeJS MySQL Sequelize JavaScript HTML JQuery CSS</p>
+        </div>
+      </div>
+
+      <!-- Unearth Disasters -->
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex justify-content-around my-lg-3  my-1 pt-3">
+          <div class="portfolio-image">
+            <a href="http://unearth-disasters.herokuapp.com/">
+            <img
+            class="portfolio-image"
+              src="./assets/images/unearthDisasters.jpg"
+              alt="unearth disasters"
             />
           </a>
         </div>
       </div>
-      <div class="col-md-8 pt-5 mt-4">
+      <div class="col-md-8 pt-1 mt-4">
         <p>
-          This project simulates ordering a burger at a restaurant. When a burger is ordered, it is added to the MySQL database and is displayed in the 'Served Burgers' column. Click on the button to 'eat' the burger, and it will be moved to the 'Consumed Burgers' column.
+          This project uses data obtained from the ReliefWeb API. The data consists of recent worldwide disasters. The user can search for information about various types of disasters in countries around the world. The data can be filtered by country, disaster type, and year it occurred. There are two pie charts displaying the number of searches done for different countries and different types of disasters. These charts are updated every time a new search is entered.
         </p>
+        <h4>Technologies Used</h4>
+        <p>Handlebars Express NodeJS MySQL Sequelize JavaScript HTML JQuery CSS</p>
       </div>
     </div>
-
-      <div class="row mb-5 bg-white">
-        <h2 class="col-md-12 py-4 text-center">Liri Project</h2>
-        <div class="col-md-6">
-          <p>
+  </div>
+    
+    <div class="row mb-5 bg-white">
+      <h2 class="col-md-12 py-4 text-center">Liri Project</h2>
+      <div class="col-md-6">
+        <p>
             This project uses NodeJs. All commands and ouput are shown in a
             terminal window. It is a text based knock-off of Siri which can be
             used to find information about songs, movies or concerts. The
