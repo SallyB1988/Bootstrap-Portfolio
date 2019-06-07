@@ -13,7 +13,7 @@ const navbar = () => {
               <a class="nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="./portfolio.html">Porfolio</a>
+              <a class="nav-link " href="./portfolio.html">Projects</a>
             </li>
           </ul>
         </div>      
